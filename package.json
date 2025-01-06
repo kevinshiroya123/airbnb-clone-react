@@ -20,7 +20,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://github.com/kevinshiroya123/airbnb-clone-react",
+  "homepage": "https://kevinshiroya123.github.io/airbnb-clone-react"
+,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
