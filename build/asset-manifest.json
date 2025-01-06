@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kevinshiroya123/airbnb-clone-react/static/css/main.c7164e29.css",
+    "main.js": "/kevinshiroya123/airbnb-clone-react/static/js/main.95a23847.js",
+    "static/js/488.e75445ad.chunk.js": "/kevinshiroya123/airbnb-clone-react/static/js/488.e75445ad.chunk.js",
+    "static/media/card 3.webp": "/kevinshiroya123/airbnb-clone-react/static/media/card 3.860644b1da8ebeb07997.webp",
+    "static/media/card 4.webp": "/kevinshiroya123/airbnb-clone-react/static/media/card 4.39d55c785e699f2ad6a5.webp",
+    "static/media/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.webp": "/kevinshiroya123/airbnb-clone-react/static/media/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.d30139d1dea289ca20ed.webp",
+    "static/media/card 1.avif": "/kevinshiroya123/airbnb-clone-react/static/media/card 1.cd7540d7b93bc8f46d41.avif",
+    "static/media/card 2.avif": "/kevinshiroya123/airbnb-clone-react/static/media/card 2.8ec5bde22fa3247b45aa.avif",
+    "static/media/card 5.avif": "/kevinshiroya123/airbnb-clone-react/static/media/card 5.6075efc0a0720a77af76.avif",
+    "static/media/card 6.avif": "/kevinshiroya123/airbnb-clone-react/static/media/card 6.6d23d4dba5f4f075450c.avif",
+    "index.html": "/kevinshiroya123/airbnb-clone-react/index.html",
+    "main.c7164e29.css.map": "/kevinshiroya123/airbnb-clone-react/static/css/main.c7164e29.css.map",
+    "main.95a23847.js.map": "/kevinshiroya123/airbnb-clone-react/static/js/main.95a23847.js.map",
+    "488.e75445ad.chunk.js.map": "/kevinshiroya123/airbnb-clone-react/static/js/488.e75445ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7164e29.css",
+    "static/js/main.95a23847.js"
+  ]
+}
