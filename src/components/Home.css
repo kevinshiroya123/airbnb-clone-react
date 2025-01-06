@@ -1,0 +1,19 @@
+.home {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .home h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .home__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dynamic card layout */
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+  }
+  

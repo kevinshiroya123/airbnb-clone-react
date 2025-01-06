@@ -1,0 +1,96 @@
+.banner {
+  position: relative; /* Set the parent container to relative for positioning */
+  width: 100%; /* Full width */
+  height: 50vh; /* Reduce the height of the banner */
+}
+
+.banner__search {
+  width: 100%; /* Full width */
+  display: flex; /* Enable flexbox for alignment */
+  justify-content: center; /* Center the button horizontally */
+  background-color: white; /* Optional background color */
+  position: absolute; /* Position it above the banner content */
+  z-index: 3; /* Ensure it's above other content */
+}
+
+
+.search__button {
+  background-color: transparent !important; /* Make background transparent */
+  color: #ff385c !important; /* White text */
+ font-size: 1rem !important; /* Font size */
+ outline: none !important; /* Ensure no outline on focus */
+  
+}
+
+
+
+
+.banner__image {
+  position: absolute; /* Make the image fill the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Maintain the container height */
+  z-index: 1; /* Place it behind the content */
+}
+
+.banner__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.banner__content {
+  display: flex; /* Enable flex layout */
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: flex-end; /* Move children to the bottom */
+  align-items: flex-start; /* Align children to the left */
+
+  position: absolute; /* Place content on top of the image */
+  top: 0; /* Align to the top of the banner */
+  left: 0; /* Align to the left side */
+  z-index: 2; /* Place it above the image */
+  color: white; /* White text for contrast */
+  text-align: left; /* Align text to the left */
+  padding: 20px 40px; /* Add padding for spacing */
+  background-color: black; /* Set the background color to black */
+  border-radius: 0px; /* Optional: Add rounded corners */
+  max-width: 300px; /* Limit the width of the content */
+  height: 100%; /* Extend the height to fill the banner */
+}
+
+.banner__content h1 {
+  font-size: 2rem; /* Adjust font size for a better fit */
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+
+}
+
+.banner__content p {
+  font-size: 1rem; /* Adjust font size */
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+
+}
+
+.banner__button {
+  position: relative;
+  display: block;
+
+  background-color: #ff385c; /* Initial background color */
+  color: white; /* Initial text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+.banner__button:hover {
+  background-color: white; /* Change background to white */
+  color: #ff385c; /* Change text color to the initial background color */
+}
+
